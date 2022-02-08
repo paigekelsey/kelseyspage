@@ -28,49 +28,33 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Kelsey  Smith</h1>
           <p>
-            I'm a{" "}
             <Typed
               strings={[
-                "",
                 "software engineer",
                 "former nurse",
                 "skilled debugger",
               ]}
               typeSpeed={80}
-              backSpeed={40}
+              backSpeed={80}
               attr="value"
               loop
+              smartBackspace
             >
-              <label value></label>
+              <label value='' ></label>
             </Typed>
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-github"></i>
+                <i className="fab fa-github fa-2x"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin fa-2x"></i>
               </a>
             </li>
-            {/* <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li> */}
-             {/* <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-            </li> */}
           </ul>
 
           <div className="mt-4">
@@ -87,6 +71,8 @@ function Herosection(props) {
         </div>
 
         <div className="scroll-down">
+          <br/>
+
           <Link
             to="section-about"
             spy={true}
@@ -101,7 +87,7 @@ function Herosection(props) {
           </Link>
         </div>
 
-        <div className="parallax" data-relative-input="true">
+        <div className="parallax" data-relative-input="">
           <svg
             width="27"
             height="29"
