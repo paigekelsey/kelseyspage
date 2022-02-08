@@ -3,35 +3,74 @@ import React from "react";
 const brandlogoData = [
   {
     id: 1,
-    image: "images/client-1.svg",
+    image: "images/nodejs.svg",
   },
   {
     id: 2,
-    image: "images/client-2.svg",
+    image: "images/react.svg",
   },
   {
     id: 3,
-    image: "images/client-3.svg",
+    image: "images/redux.svg",
   },
   {
     id: 4,
-    image: "images/client-4.svg",
+    image: "images/javascript.svg",
   },
   {
     id: 5,
-    image: "images/client-5.svg",
+    image: "images/rest.svg",
   },
   {
     id: 6,
-    image: "images/client-6.svg",
+    image: "images/html.svg",
   },
+
   {
     id: 7,
-    image: "images/client-7.svg",
+    image: "images/css.svg",
   },
+
   {
     id: 8,
-    image: "images/client-8.svg",
+    image: "images/webpack.svg",
+  },
+  {
+    id: 9,
+    image: "images/postgresql.svg",
+  },
+
+  {
+    id: 10,
+    image: "images/sequelize.svg",
+  },
+
+  {
+    id: 11,
+    image: "images/mongodb.svg",
+  },
+  {
+    id: 12,
+    image: "images/git.svg",
+  },
+
+
+  {
+    id: 13,
+    image: "images/heroku.svg",
+  },
+  {
+    id: 14,
+    image: "images/netlify.svg",
+  },
+
+  {
+    id: 15,
+    image: "images/sass-icon.svg",
+  },
+  {
+    id: 16,
+    image: "images/expressjs-icon.svg",
   },
 ];
 

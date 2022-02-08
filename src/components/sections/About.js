@@ -8,7 +8,7 @@ const aboutContent = {
   name: "Kelsey",
   avatarImage: "/images/side.png",
   content:
-    "I am Kelsey Smith, software engineer lving in Brooklyn. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "Hi! I'm Kelsey Smith, a software engineer living in Brooklyn. Prior to working as a full-stack developer I was a clinical research nurse. I love travelling and hanging out with my dog, Maddie.",
 };
 
 const progressData = [
@@ -27,7 +27,7 @@ const progressData = [
   {
     id: 3,
     title: "Dog Mom",
-    percantage: 70,
+    percantage: 100,
     progressColor: "#6C6CE5",
   },
 ];
@@ -36,18 +36,18 @@ const counterData = [
   {
     id: 1,
     title: "Projects completed",
-    count: 198,
+    count: 8,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 5670,
+    title: "Cups of coffee",
+    count: 625,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Satisfied clients",
+    title: "Dog treats given",
     count: 427,
     icon: "icon-people",
   },
@@ -103,15 +103,17 @@ function About() {
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
-        <div className="row fix-spacing">
+        {/* <div className="row fix-spacing">
+        <h3>So far in 2022:</h3>
           {counterData.map((counter) => (
             <div key={counter.id} className="col-md-3 col-sm-6">
+
               <TrackVisibility once>
                 <Counter counterItem={counter} />
               </TrackVisibility>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -783,6 +783,7 @@
   content: "\e620";
 }
 
-.mouse-wrapper:hover, .mouse-wrapper span{
-  margin-top: 0.5rem;
+.client-item img{
+  width:4rem;
+  height:4rem
 }
