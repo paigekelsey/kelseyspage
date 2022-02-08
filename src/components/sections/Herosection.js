@@ -57,7 +57,7 @@ function Herosection(props) {
             </li>
           </ul>
 
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <Link
               className="btn btn-default"
               to="section-contact"
@@ -67,7 +67,7 @@ function Herosection(props) {
             >
               Let's Talk
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="scroll-down">
