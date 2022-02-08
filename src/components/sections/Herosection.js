@@ -26,7 +26,7 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/logo2.png" alt="Kelsey" className="mb-4" />
 
-          <h2 className="mb-2 mt-0">Hi there, I'm <span><h1>Kelsey Smith.</h1></span> </h2>
+          <h2 className="mb-2 mt-0">Hi, I'm <span><h1>Kelsey Smith.</h1></span> </h2>
           <p>
             <Typed
               strings={[
