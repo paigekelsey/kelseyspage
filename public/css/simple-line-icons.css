@@ -783,3 +783,6 @@
   content: "\e620";
 }
 
+.mouse-wrapper:hover, .mouse-wrapper span{
+  margin-top: 0.5rem;
+}
