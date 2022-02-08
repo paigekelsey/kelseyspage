@@ -1,6 +1,6 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
-import Counter from "../elements/Counter";
+// import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
@@ -32,32 +32,32 @@ const progressData = [
   },
 ];
 
-const counterData = [
-  {
-    id: 1,
-    title: "Projects completed",
-    count: 8,
-    icon: "icon-fire",
-  },
-  {
-    id: 2,
-    title: "Cups of coffee",
-    count: 625,
-    icon: "icon-cup",
-  },
-  {
-    id: 3,
-    title: "Dog treats given",
-    count: 427,
-    icon: "icon-people",
-  },
-  {
-    id: 4,
-    title: "Nominees winner",
-    count: 35,
-    icon: "icon-badge",
-  },
-];
+// const counterData = [
+//   {
+//     id: 1,
+//     title: "Projects completed",
+//     count: 8,
+//     icon: "icon-fire",
+//   },
+//   {
+//     id: 2,
+//     title: "Cups of coffee",
+//     count: 625,
+//     icon: "icon-cup",
+//   },
+//   {
+//     id: 3,
+//     title: "Dog treats given",
+//     count: 427,
+//     icon: "icon-people",
+//   },
+//   {
+//     id: 4,
+//     title: "Nominees winner",
+//     count: 35,
+//     icon: "icon-badge",
+//   },
+// ];
 
 function About() {
   return (
