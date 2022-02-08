@@ -800,3 +800,7 @@ height:auto
 .intro h2{
   color:bisque
 }
+
+section.home .intro{
+  margin-top:-10rem;
+}
