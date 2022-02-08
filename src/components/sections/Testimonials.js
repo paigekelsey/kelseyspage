@@ -43,13 +43,24 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <Pagetitle title="Skills" />
+      <div className="col-md-3">
+            <div id="maddie" className="text-center text-md-right">
+              <img src="/images/skillz.png" alt="kelsey" />
+            </div>
+            </div>
+       <Pagetitle title="Skills"/>
+
+
+
+
+            </div>
+
         {/* <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (
             <Testimonial key={slider.id} slider={slider} />
           ))}
         </Slider> */}
-      </div>
+
     </section>
   );
 }

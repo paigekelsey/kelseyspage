@@ -71,18 +71,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-experiences"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-graduation"></i>Experience
+                <i className="icon-briefcase"></i>Skills
               </Link>
             </li>
             <li>

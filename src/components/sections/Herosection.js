@@ -57,17 +57,7 @@ function Herosection(props) {
             </li>
           </ul>
 
-          {/* <div className="mt-4">
-            <Link
-              className="btn btn-default"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Let's Talk
-            </Link>
-          </div> */}
+
         </div>
 
         <div className="scroll-down">
