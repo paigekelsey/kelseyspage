@@ -9,8 +9,6 @@ import Homepage2Dark from "./pages/Homepage2Dark";
 import Homepage3 from "./pages/Homepage3";
 import Homepage3Light from "./pages/Homepage3Light";
 import Homepage3Dark from "./pages/Homepage3Dark";
-// import Bloglist from "./pages/Bloglist";
-// import BlogDetails from "./pages/BlogDetails";
 import "./App.scss";
 
 function App() {

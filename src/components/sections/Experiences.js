@@ -5,8 +5,8 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Fullstack Academy",
+    years: "2021",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },
