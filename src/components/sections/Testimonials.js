@@ -45,14 +45,10 @@ function Testimonials() {
       <div className="container">
       <div className="col-md-3">
             <div id="maddie" className="text-center text-md-right">
-              <img src="/images/skillz.png" alt="kelsey" />
+              <img src="/images/fav.png" alt="kelsey" />
             </div>
             </div>
        <Pagetitle title="Skills"/>
-
-
-
-
             </div>
 
         {/* <Slider {...slidetSettings} className="testimonials-wrapper">

@@ -791,7 +791,7 @@
 
 div#maddie.text-center.text-md-right img{
 position: absolute;
-margin-left:-3rem;
+margin-left:-1.5rem;
 margin-top:-6rem;
 width:15rem;
 height:auto
@@ -803,4 +803,13 @@ height:auto
 
 section.home .intro{
   margin-top:-10rem;
+}
+
+div.row p{
+  font-size: 20px;
+}
+
+div.col-md-6{
+  width:100%;
+  font-size: 20px
 }
