@@ -10,6 +10,7 @@
       format("svg");
   font-weight: normal;
   font-style: normal;
+  font-size: 50px
 }
 /*
  Use the following CSS code if you want to have a class per icon.
@@ -813,3 +814,24 @@ div.col-md-6{
   width:100%;
   font-size: 20px
 }
+
+#button-work{
+  border-radius: 30%
+}
+
+.work-container{
+  display:flex;
+}
+
+.work-left {
+  margin-left: 0
+}
+
+.work-right {
+  margin-right: 0
+}
+
+/* .thumb img{
+  width: 26rem;
+  height: auto;
+} */

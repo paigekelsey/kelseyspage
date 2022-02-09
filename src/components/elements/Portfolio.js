@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link } = portfolio;
+  const { category, title, image, popupLink, link, live, code} = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -12,23 +12,23 @@ function Portfolio({ portfolio }) {
     }
   };
 
-  const handleIcon = () => {
-    if (link) {
-      return <i className="icon-link"></i>;
-    } else if (popupLink) {
-      if (popupLink.length > 1) {
-        if (popupLink.toString().match(/youtube/g)) {
-          return <i className="icon-camrecorder"></i>;
-        }
-        return <i className="icon-picture"></i>;
-      } else if (popupLink.toString().match(/youtube/g)) {
-        return <i className="icon-camrecorder"></i>;
-      } else {
-        return <i className="icon-magnifier-add"></i>;
-      }
-    }
-    return <i className="icon-magnifier-add"></i>;
-  };
+  // const handleIcon = () => {
+  //   if (link) {
+  //     return <i className="icon-link"></i>;
+  //   } else if (popupLink) {
+  //     if (popupLink.length > 1) {
+  //       if (popupLink.toString().match(/youtube/g)) {
+  //         return <i className="icon-camrecorder"></i>;
+  //       }
+  //       return <i className="icon-picture"></i>;
+  //     } else if (popupLink.toString().match(/youtube/g)) {
+  //       return <i className="icon-camrecorder"></i>;
+  //     } else {
+  //       return <i className="icon-magnifier-add"></i>;
+  //     }
+  //   }
+  //   return <i className="icon-magnifier-add"></i>;
+  // };
   return (
     <>
       <a
@@ -40,7 +40,7 @@ function Portfolio({ portfolio }) {
           <div className="details">
             <span className="term text-capitalize">{category}</span>
             <h4 className="title">{title}</h4>
-            <span className="more-button">{handleIcon()}</span>
+            {/* <span className="more-button">{handleIcon()}</span> */}
           </div>
           <div className="thumb">
             <img src={image} alt="Portfolio-title" />
@@ -49,6 +49,19 @@ function Portfolio({ portfolio }) {
         </div>
       </a>
       {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
+      <div className = "work-container">
+              <div className = "work-left">
+                <a href ={live} target="_blank" rel ="noreferrer">
+                  <button className = 'btn btn-work' type= 'submit'>site</button>
+                  </a>
+                  </div>
+             <div className = "work-right">
+             <a href ={code} target="_blank" rel ="noreferrer">
+              <button className = 'btn btn-work' type= 'submit'>code</button>
+              </a>
+              </div>
+              </div>
+
     </>
   );
 }

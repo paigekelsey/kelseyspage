@@ -2,7 +2,7 @@
 /*                      SECTIONS
 /*=================================================================*/
 main.content {
-  margin-left: 290px;
+  margin-left: 100px;
   @include transition(0.3s);
 
   &.open {

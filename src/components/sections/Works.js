@@ -3,6 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
 
+
 const filters = [
   {
     id: 1,
@@ -10,130 +11,62 @@ const filters = [
   },
   {
     id: 2,
-    text: "creative",
+    text: "capstone",
   },
   {
     id: 3,
-    text: "art",
+    text: "ecommerce",
   },
   {
     id: 4,
-    text: "design",
+    text: "personal",
   },
   {
     id: 5,
-    text: "branding",
+    text: "design",
   },
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    title: "Converge",
+    category: "capstone",
+    image: "images/vergey.png",
+    popupLink: ["images/vergey.png"],
+    live: "https://www.converge-app.com/",
+    code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice"
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
+    title: "Peach Studio",
+    category: "ecommerce",
+    image: "images/stu.png",
     popupLink: [
       "images/works/2.svg",
       "images/works/5.svg",
       "images/works/6.svg",
     ],
+    live:"https://peach-studio.herokuapp.com/",
+    code:""
   },
   {
     id: 3,
     title: "Delivery App Wireframe",
-    category: "branding",
+    category: "design",
     image: "images/works/3.svg",
     popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
-  },
-  {
-    id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
-    image: "images/works/4.svg",
-    popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
-    ],
-  },
-  {
-    id: 5,
-    title: "iMac Mockup Design",
-    category: "art",
-    image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
-  },
-  {
-    id: 6,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 8,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 9,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
-  },
-  {
-    id: 10,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 11,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 12,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 13,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
+    live:"www.google.com"
   },
 ];
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
-  const [dataIncrement] = useState(3);
+  const [dataVisibleCount] = useState(6);
+  // const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
-  const [noMorePost, setNoMorePost] = useState(false);
+  // const [noMorePost, setNoMorePost] = useState(false);
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
@@ -156,25 +89,25 @@ function Works() {
     setVisibleItems(tempData);
   };
 
-  const handleLoadmore = (e) => {
-    e.preventDefault();
-    let tempCount = dataVisibleCount + dataIncrement;
-    if (dataVisibleCount > getAllItems.length) {
-      setNoMorePost(true);
-    } else {
-      setDataVisibleCount(tempCount);
-      if (activeFilter === filters[0].text.toLowerCase()) {
-        console.log("they are same");
-        setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
-      } else {
-        setVisibleItems(
-          getAllItems.filter(
-            (data) => data.category === activeFilter && data.id <= tempCount
-          )
-        );
-      }
-    }
-  };
+  // const handleLoadmore = (e) => {
+  //   e.preventDefault();
+  //   let tempCount = dataVisibleCount + dataIncrement;
+  //   if (dataVisibleCount > getAllItems.length) {
+  //     setNoMorePost(true);
+  //   } else {
+  //     setDataVisibleCount(tempCount);
+  //     if (activeFilter === filters[0].text.toLowerCase()) {
+  //       console.log("they are same");
+  //       setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
+  //     } else {
+  //       setVisibleItems(
+  //         getAllItems.filter(
+  //           (data) => data.category === activeFilter && data.id <= tempCount
+  //         )
+  //       );
+  //     }
+  //   }
+  // };
 
   return (
     <section id="works">
@@ -210,12 +143,11 @@ function Works() {
           {visibleItems.map((item) => (
             <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
               <Portfolio portfolio={item} />
+              <br/>
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
-
-        <div className="load-more text-center mt-4">
+        {/* <div className="load-more text-center mt-4">
           <button
             className="btn btn-default"
             onClick={handleLoadmore}
@@ -229,7 +161,7 @@ function Works() {
               </span>
             )}
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
