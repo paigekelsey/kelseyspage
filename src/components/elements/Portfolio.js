@@ -52,12 +52,16 @@ function Portfolio({ portfolio }) {
       <div className = "work-container">
               <div className = "work-left">
                 <a href ={live} target="_blank" rel ="noreferrer">
-                  <button className = 'btn btn-work' type= 'submit'>site</button>
+                  <button className = 'btn btn-work' type= 'submit'>
+                    <img src="/images/link.svg" alt="site"/>
+                  </button>
                   </a>
                   </div>
              <div className = "work-right">
              <a href ={code} target="_blank" rel ="noreferrer">
-              <button className = 'btn btn-work' type= 'submit'>code</button>
+              <button className = 'btn btn-work' type= 'submit'>
+              <img src="/images/code.svg" alt="code"/>
+              </button>
               </a>
               </div>
               </div>

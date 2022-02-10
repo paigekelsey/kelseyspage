@@ -821,15 +821,12 @@ div.col-md-6{
 
 .work-container{
   display:flex;
+  gap: 5rem;
+  margin-inline:2rem;
+  margin-top: 0.5rem;
 }
 
-.work-left {
-  margin-left: 0
-}
 
-.work-right {
-  margin-right: 0
-}
 
 /* .thumb img{
   width: 26rem;

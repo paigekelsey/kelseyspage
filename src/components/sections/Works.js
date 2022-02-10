@@ -21,10 +21,6 @@ const filters = [
     id: 4,
     text: "personal",
   },
-  {
-    id: 5,
-    text: "design",
-  },
 ];
 
 const allData = [
@@ -49,14 +45,6 @@ const allData = [
     ],
     live:"https://peach-studio.herokuapp.com/",
     code:""
-  },
-  {
-    id: 3,
-    title: "Delivery App Wireframe",
-    category: "design",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
-    live:"www.google.com"
   },
 ];
 
