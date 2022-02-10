@@ -76,6 +76,7 @@ const brandlogoData = [
 
 function Brandlogos() {
   return (
+    <section id="services">
     <div id="branglogos">
       <div className="container">
         <div className="row">
@@ -91,6 +92,7 @@ function Brandlogos() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

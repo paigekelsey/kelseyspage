@@ -4,6 +4,7 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 // import Skill from "../elements/Skill";
 
+
 const aboutContent = {
   name: "Kelsey",
   avatarImage: "/images/side.png",
@@ -11,7 +12,19 @@ const aboutContent = {
     "I'm a software engineer that loves making impactful and seamless products. Prior to web development I was a registered nurse. My desire to help others has translated into my tech career, driving me to create meaningful and user-friendly applications.",
 };
 
+const downloadTag = "My Resume"
 
+const curriculumLink = (
+  <div className="mt-3">
+  <th>
+    <a href="/images/Kelsey_Smith_CV.pdf" target="_blank">
+      <button className="btn btn-default">
+        <div>{downloadTag}</div>
+      </button>{" "}
+    </a>
+  </th>
+  </div>
+)
 function About() {
   return (
     <section id="about">
@@ -27,11 +40,21 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
                 <div className="col-md-6">
                   {aboutContent.content}
-                  <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                  <table
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          className="downloadCV"
+        >
+          <tbody>
+            <tr>{curriculumLink}</tr>
+          </tbody>
+        </table>
+     
+                  {/* 
+                    <a href="!#" >
                       Download CV
                     </a>
-                  </div>
+                  </div> */}
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ function Homepage() {
          <Element name="section-testimoninal">
           <Testimonials />
         </Element>
-           <Element name="section-brandlogos">
+           <Element name="section-services">
           <Brandlogos />
         </Element>
         <Element name="section-works">
