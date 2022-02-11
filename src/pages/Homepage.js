@@ -7,7 +7,7 @@ import Brandlogos from "../components/sections/Brandlogos";
 import Contact from "../components/sections/Contact";
 // import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
-// import Services from "../components/sections/Services";
+import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
@@ -45,6 +45,7 @@ function Homepage() {
           <Testimonials />
         </Element>
            <Element name="section-services">
+             <Services/>
           <Brandlogos />
         </Element>
         <Element name="section-works">
