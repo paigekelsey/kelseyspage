@@ -1,8 +1,5 @@
 import React from "react";
-// import TrackVisibility from "react-on-screen";
-// import Pdf from '../Documents/Document.pdf';
 import Pagetitle from "../elements/Pagetitle";
-// import Skill from "../elements/Skill";
 
 
 const aboutContent = {
