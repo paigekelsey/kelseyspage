@@ -98,17 +98,19 @@ function Converge() {
   return (
     <div className="container">
       <div className="other">
-        <h1 className="converge-title">Converge: 2d Virtual Office</h1>
-        <div className="live-code">
+              <div className="live-code">
+                <br/>
             <span>
         <a href={code} target="_blank" rel="noreferrer">
-              <i class="fab fa-github fa-3x"></i>
+              <i class="fab fa-github fa-2x"></i>
             </a>
           <a href={live}>
-              <i class="fas fa-external-link-alt fa-3x"></i>
+              <i class="fas fa-external-link-alt fa-2x"></i>
             </a>
             </span>
             </div>
+        <h1 className="converge-title">Converge: 2d Virtual Office</h1>
+
         <div className="project-view">
           <Link to="/">
             <i className="icon-home"></i> Home
