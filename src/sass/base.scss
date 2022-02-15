@@ -76,6 +76,7 @@ h4 {
 
 a {
     color: $colorpink;
+    text-decoration: none;
     outline: 0;
     @include transition(.3s);
 

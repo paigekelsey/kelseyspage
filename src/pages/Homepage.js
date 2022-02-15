@@ -9,6 +9,7 @@ import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
 
+
 function Homepage() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -46,6 +47,7 @@ function Homepage() {
         <Element name="section-works">
           <Works />
         </Element>
+    
         <Element name="section-contact">
           <Contact />
         </Element>

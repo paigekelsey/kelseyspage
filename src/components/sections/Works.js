@@ -1,6 +1,5 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import Single from '../elements/Single'
 import {Link} from 'react-router-dom'
 // import Portfolio from "../elements/Portfolio";
 
@@ -28,7 +27,8 @@ const allData = [
     id: 1,
     title: "Converge",
     category: "capstone",
-    about: "2d virtual office",
+    about: "2d virtual office that allows users to control avatars to initiate proximity-based video-conferencing",
+    click: 'See Project Details',
     image: "images/vergey.png",
     live: "https://www.converge-app.com/",
     code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
@@ -39,13 +39,14 @@ const allData = [
       "Socket.io",
       "WebRTC",
     ],
-    page:{Single}
+    page:'/converge'
   },
   {
     id: 2,
     title: "Peach Studio",
     category: "ecommerce",
-    about: "jwt authentication",
+    about: "Ecommerce site that includes user and guest functionality.",
+    click: 'See Project Details',
     image: "images/stu.png",
     live: "https://peach-studio.herokuapp.com/",
     code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
@@ -56,26 +57,8 @@ const allData = [
       "Wordpress Api",
       "Calendly",
     ],
-    page:{Single}
-  },
-  {
-    id: 3,
-    title: "Test",
-    category: "personal",
-    about:
-      "Wedeveloper is a platform for developers across the globe to enhance their skills, get jobs, work on project hereby gaining a lot of experience that is needed in the technology world.",
-    image: "/images/mac.png",
-    live: "https://peach-studio.herokuapp.com/",
-    code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
-    tools: [
-      "React/Redux",
-      "Nodejs/Express",
-      "MongoDB",
-      "Wordpress Api",
-      "Calendly",
-    ],
-    page:{Single}
-  },
+    page:'/peach'
+  }
 ];
 
 const Works = () => {
@@ -84,22 +67,26 @@ const Works = () => {
       <div className="container">
         <Pagetitle title="Recent Works" />
         {/* Start Portfolio Filters */}
+   
         <div className="project-wrapper">
           {allData.map((item, i) => (
             <div key={i} className="project">
+                   <Link to= {item.page}style={{ textDecoration: 'none', overflow:'hidden'}}>
               <div className="project-img">
                 <img src={item.image} alt={item.image} layout="responsive" />
               </div>
               <div>
                 <p className="name">{item.title}</p>
               </div>
-              <Link to= {"/converge"}style={{ textDecoration: 'none', overflow:'hidden'}}>
+       
               <div className="project-details">
                
-                <h3 style={{color: 'white'}} >{item.title}</h3>
-                <p style={{color: 'white'}}>{item.about}</p>
-    
-                <div style={{color: 'white'}}className="tools">
+                <h2 style={{color: 'white'}} >{item.title}</h2>
+                <p style={{color: 'white', fontSize:'20px'}}>{item.about}</p>
+               
+                 <h1 style ={{color: "rgb(236, 132, 132)", textAlign:'center'}}> {item.click}</h1>
+                 <i className="icon-arrow-right-circle" style ={{ textAlign:'center', fontSize:'40px', color: 'rgb(236, 132, 132)'}}></i>
+                <div style={{color: 'white', fontSize: "20px"}}className="tools">
                   {item.tools.map((tool, i) => (
                     <div key={i}>  {tool}</div>
                   ))}
@@ -107,13 +94,14 @@ const Works = () => {
                 </div>
               
               </div>
+          
+           
               </Link>
-              
-              
             </div>
           ))}
-
+        
         </div>
+       
       </div>
   
     </section>

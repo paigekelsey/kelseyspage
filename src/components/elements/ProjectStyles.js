@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import px2vw from "../utils/px2vw"
 
+
+
+export const Logo = styled.img`
+width: 30px;
+height: 30px;
+margin: 15px;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +19,12 @@ export const Container = styled.div`
     flex-wrap: nowrap;
   }
 `;
+// export const BoxImage = styled.img`
+// height: '50px',
+// width: '50px'
+
+// }
+// `;
 
 export const Box = styled.div`
   display: flex;
@@ -19,6 +33,7 @@ export const Box = styled.div`
   flex-direction: column;
   padding: ${px2vw(20)};
   margin: ${px2vw(20)};
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background-color: ${props => props.bgColor};
   height: 100%;
   @media (min-width: 768px) {
@@ -41,7 +56,11 @@ export const BoxTitle = styled.h3`
     font-size: 1.5rem;
   }
 `;
+export const BoxImage = styled.img`
+  width:200px;
+  height: 200px;
 
+`;
 export const BoxText = styled.p`
   margin-top: ${px2vw(20)};
   color: #666;
@@ -50,3 +69,4 @@ export const BoxText = styled.p`
     font-size: 1rem;
   }
 `;
+
