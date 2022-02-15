@@ -1054,3 +1054,45 @@ height:4rem
   bottom:0;
   right:0
 }
+
+div#leftDescription.description.col-md-4.my-auto{
+  margin-bottom: auto!important;
+}
+
+div.description.col-md-4.my-auto{
+  margin-bottom: auto!important;
+}
+
+div#rightDescription.description.col-md-4.my-auto{
+  margin-bottom: auto!important;
+}
+
+/* #mypdf{
+  text-align: center;
+  color:firebrick;
+  position:absolute;
+  margin-top:33px;
+  margin-left:355px;
+
+} */
+#mypdf img{
+  width:4rem;
+  height:4rem;
+  margin-bottom:4rem;
+}
+
+
+img.mb-4{
+  width:75%;
+  height:400px;
+}
+
+/* .endpic{
+text-align: center;
+} */
+
+.endpic img{
+width:200px;
+position: absolute;
+margin-left:30%
+}

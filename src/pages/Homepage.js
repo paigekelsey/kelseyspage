@@ -8,7 +8,7 @@ import Contact from "../components/sections/Contact";
 import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
-
+import Skillz from "../components/sections/Skills"
 
 function Homepage() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -43,7 +43,9 @@ function Homepage() {
   
         <Element name="section-works">
           <Works />
-      
+        </Element>
+        <Element name="section-brandlogos">
+             <Skillz />
         </Element>
         <Element name="section-services">
              <Services/>

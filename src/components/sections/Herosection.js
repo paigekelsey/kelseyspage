@@ -14,6 +14,7 @@ function Herosection(props) {
   };
 
   return (
+    
     <section
       id="home"
       className={
@@ -22,6 +23,7 @@ function Herosection(props) {
           : "home d-flex align-items-center"
       }
     >
+      
       <div className="container">
         <div className="intro">
           <img src="images/logo1.png" alt="kelsey" className="mb-4" />
@@ -45,19 +47,26 @@ function Herosection(props) {
             </Typed>
           </p>
 
-          <ul className="social-icons light list-inline mb-0 mt-4">
-            <li className="list-inline-item">
-            <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'>
-                <i className="fab fa-github fa-2x"></i>
+          <ul id="mypdf" className="social-icons light list-inline mb-0 mt-4">
+          <li className="list-inline-item"> 
+            <a href="images/KSCV.pdf" target='_blank' rel='noreferrer' className='text'>
+                <img src ="/images/6.png" alt='mycv'/>
+              
               </a>
             </li>
             <li className="list-inline-item">
-            <a href="https://www.linkedin.com/in/kelseyspaige/" target='_blank' rel='noreferrer'>
-                <i className="fab fa-linkedin fa-2x"></i>
+            <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'className='text'>
+                <img src='images/git.png' alt='github'/>
               </a>
             </li>
-           
-          </ul>
+            <li className="list-inline-item">
+            <a href="https://www.linkedin.com/in/kelseyspaige/" target='_blank' rel='noreferrer'className='text'>
+                 <img src='images/link.png' alt='github'/>
+              </a>
+            </li>
+            </ul>
+       
+         
 
           <div className="mt-4">
        
@@ -72,10 +81,11 @@ function Herosection(props) {
             duration={500}
             className="mouse-wrapper"
           >
-            <span>Scroll Down</span>
+          
             <span className="mouse">
               <span className="wheel"></span>
             </span>
+            <span>Scroll Down</span>
           </Link>
         </div>
 
