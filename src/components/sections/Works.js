@@ -29,7 +29,7 @@ const allData = [
     category: "capstone",
     about: "2d virtual office that allows users to control avatars to initiate proximity-based video-conferencing",
     click: 'See Project Details',
-    image: "images/vergey.png",
+    image: "images/theverge.png",
     live: "https://www.converge-app.com/",
     code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
     tools: [
@@ -47,7 +47,7 @@ const allData = [
     category: "ecommerce",
     about: "Ecommerce site that includes user and guest functionality.",
     click: 'See Project Details',
-    image: "images/stu.png",
+    image: "images/peachy.png",
     live: "https://peach-studio.herokuapp.com/",
     code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
     tools: [
@@ -61,11 +61,11 @@ const allData = [
   },
   {
     id: 3,
-    title: "Peach Studio",
+    title: "Kelsey's Portfolio",
     category: "ecommerce",
-    about: "Ecommerce site that includes user and guest functionality.",
+    about: "The site you are on right now!",
     click: 'See Project Details',
-    image: "images/stu.png",
+    image: "images/porty.png",
     live: "https://peach-studio.herokuapp.com/",
     code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
     tools: [
@@ -89,7 +89,7 @@ const Works = () => {
         <div className="project-wrapper">
           {allData.map((item, i) => (
             <div key={i} className="project">
-                   <Link to= {item.page}style={{ textDecoration: 'none', overflow:'hidden'}}>
+                  
               <div className="project-img">
                 <img src={item.image} alt={item.image} layout="responsive" />
               </div>
@@ -98,20 +98,20 @@ const Works = () => {
               </div>
        
               <div className="project-details">
-               
+              <a href= {item.page}style={{ textDecoration: 'none', overflow:'hidden'}}>
+                <h3 style= {{color: 'white'}}>{item.title}</h3>
                 <h3 style={{color: "rgb(236, 132, 132)"}} >Click to See Project Details</h3>
+                </a>
                 <p style={{color: 'white', fontSize:'20px'}}>{item.about}</p>
-              
-             
-              
+                <div className="works-hover">
+                            <a href={allData[0].code} target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
+                            <a href={allData[0].live}><i class="fas fa-external-link-alt fa-3x"></i></a>
+                            </div>
               </div>
           
-           
-              </Link>
-              <span className= 'source-live'>
-              <a href={allData[0].live} target='_blank'rel='noreferrer'>Live Site</a>
-              <a href={allData[0].code} target='_blank'rel='noreferrer'>Source Code</a>
-              </span>
+           <p>{item.title}</p>
+          
+        
             </div>
           ))}
         

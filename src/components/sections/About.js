@@ -6,27 +6,35 @@ import Testimonial from "../elements/Testimonial";
 const sliderData = [
   {
     id: 1,
-    avatar: "images/side.png",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/debug.png",
+    userName: "From Nurse to Software Engineer ",
+    subtitle: "Debugging expert. The bugs are just different.",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "I am a software engineer and former nurse, driven by intellectual curiosity. My goal is to utilize my creativity, technical skills, and leadership experience to collaboratively develop technology with tangible impact. ",
   },
   {
     id: 2,
-    avatar: "images/avatar-2.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/workflo.png",
+    userName: "Development and Design Process ",
+    subtitle: "",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Agile methodology. Tools for UI/UX ",
   },
   {
     id: 3,
-    avatar: "images/avatar-3.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/timeline.png",
+    userName: "Timeline",
+    subtitle: "",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "",
+  },
+  {
+    id: 3,
+    avatar: "images/maddie1.png",
+    userName: "My dog",
+    subtitle: "Had to mention the the obvious theme of the dog you see on my site",
+    review:
+      "The real star of this portfolio site, Maddow. She can't code, but can she eat.",
   },
 ];
 

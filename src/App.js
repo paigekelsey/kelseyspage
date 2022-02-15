@@ -5,7 +5,7 @@ import Bloglist from "./pages/Bloglist";
 import BlogDetails from "./pages/BlogDetails";
 import Converge from "./components/elements/Converge";
 import Peach from "./components/elements/Peach";
-import Other from './components/elements/Other'
+import Port from './components/elements/Port'
 import "./App.scss";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
         <Route path="/peach" exact>
           <Peach />
         </Route>
-        <Route path="/other" exact>
-          <Other />
+        <Route path="/port" exact>
+          <Port />
         </Route>
       </Switch>
     </BrowserRouter>

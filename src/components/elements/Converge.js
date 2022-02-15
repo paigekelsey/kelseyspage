@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import ScrollAnimation from "react-animate-on-scroll";
 import Portfolio from "./Portfolio";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const filters = [
   {
@@ -32,13 +32,13 @@ const allData = [
     title: "Description",
     category: "challenge",
     image: "images/verge-tech.png",
-    popupLink: ["images/work.gif"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    popupLink: ["images/verge-tech.png"],
+    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
   },
   {
     id: 2,
     title: "Approach",
-    category: "tech",
+    category: "approach",
     image: "images/verge-miro.png",
     popupLink: [
       "images/verge-wireframe.jpg",
@@ -46,18 +46,20 @@ const allData = [
       "images/frame2.jpg",
       "images/frame3.jpg",
     ],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
   },
   {
     id: 3,
     title: "Results",
     category: "tech",
     image: "images/youtube.png",
-    popupLink:  ["https://www.youtube.com/watch?v=5X3TyV4lEkk&feature=youtu.be"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    popupLink: ["https://www.youtube.com/watch?v=5X3TyV4lEkk&feature=youtu.be"],
+    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
   },
-
 ];
+
+const live = "https://www.converge-app.com/";
+const code = "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice";
 
 function Converge() {
   const [getAllItems] = useState(allData);
@@ -65,29 +67,14 @@ function Converge() {
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
-  const [ setNoMorePost] = useState(false);
+  const [setNoMorePost] = useState(false);
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
     setVisibleItems(getAllItems.filter((item) => item.id <= 6));
   }, [getAllItems]);
 
-  // const handleChange = (e) => {
-  //   e.preventDefault();
-  //   setActiveFilter(e.target.textContent.toLowerCase());
-  //   let tempData;
-  //   if (e.target.textContent.toLowerCase() === filters[0].text.toLowerCase()) {
-  //     tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
-  //   } else {
-  //     tempData = getAllItems.filter(
-  //       (data) =>
-  //         data.category === e.target.textContent.toLowerCase() &&
-  //         data.id <= dataVisibleCount
-  //     );
-  //   }
-  //   setVisibleItems(tempData);
-  // };
-// eslint-disable-next-line
+  // eslint-disable-next-line
   const handleLoadmore = (e) => {
     e.preventDefault();
     let tempCount = dataVisibleCount + dataIncrement;
@@ -110,8 +97,18 @@ function Converge() {
 
   return (
     <div className="container">
-<div className="other">
-        <h1 className= 'converge-title'>Converge: Details</h1>
+      <div className="other">
+        <h1 className="converge-title">Converge: 2d Virtual Office</h1>
+        <div className="live-code">
+            <span>
+        <a href={code} target="_blank" rel="noreferrer">
+              <i class="fab fa-github fa-3x"></i>
+            </a>
+          <a href={live}>
+              <i class="fas fa-external-link-alt fa-3x"></i>
+            </a>
+            </span>
+            </div>
         <div className="project-view">
           <Link to="/">
             <i className="icon-home"></i> Home
@@ -119,51 +116,31 @@ function Converge() {
           <Link to="/peach">
             Next<i className="icon-arrow-right-circle"></i>
           </Link>
+          <div>
+          
+          </div>
         </div>
         <div className="single-view-background">
-        <div className="row portfolio-wrapper">
-          {visibleItems.map((item) => (
-            <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
-              <Portfolio portfolio={item} />
-            </div>
-          ))}
+          <div className="row portfolio-wrapper">
+            {visibleItems.map((item) => (
+              <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
+                <Portfolio portfolio={item} />
+              </div>
+            ))}
+          </div>
         </div>
-        {/* End Portfolio Items */}
-
-        {/* <div className="load-more text-center mt-4">
-          <button
-            className="btn btn-default"
-            onClick={handleLoadmore}
-            disabled={noMorePost ? "disabled" : null}
-          >
-            {noMorePost ? (
-              "No more items"
-            ) : (
-              <span>
-                <i className="fas fa-spinner"></i> Load more
-              </span>
-            )}
-          </button>
-        </div> */}
       </div>
-      </div>
-      </div>
-
+    </div>
   );
 }
 
 export default Converge;
-   
+
 // import React from "react";
 
 // import Global from "../layouts/Global"
 
 // import SingleProject from "./SingleProject"
-
-
-
-
-
 
 // // id: 1,
 // // title: "Converge",
