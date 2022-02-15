@@ -13,8 +13,7 @@ header.desktop-header-1 {
 	height: 100vh;
 	min-height: 100vh;
 	top: 0;
-	// width: 290px;
-	height:min-content;
+	width: 290px;
 	z-index: 1;
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
@@ -31,16 +30,14 @@ header.desktop-header-1 {
 		transform: translateX(0);
 	}
 
-	.site-logo {
-		width: 10rem;
-	}
+	.site-logo {}
 
 	/* === Vertical Menu === */
 	.vertical-menu {
 		list-style: none;
 		padding: 0;
 		margin-bottom: 130px;
-		margin-top: 20px;
+		margin-top: 130px;
 	}
 
 	.vertical-menu li.openmenu>a,
