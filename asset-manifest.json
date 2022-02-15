@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/kelseyspage/static/css/main.f3905d4c.chunk.css",
+    "main.js": "/kelseyspage/static/js/main.a669c101.chunk.js",
+    "main.js.map": "/kelseyspage/static/js/main.a669c101.chunk.js.map",
+    "runtime-main.js": "/kelseyspage/static/js/runtime-main.4f7b1bcc.js",
+    "runtime-main.js.map": "/kelseyspage/static/js/runtime-main.4f7b1bcc.js.map",
+    "static/css/2.8d5fbc20.chunk.css": "/kelseyspage/static/css/2.8d5fbc20.chunk.css",
+    "static/js/2.2b5acca7.chunk.js": "/kelseyspage/static/js/2.2b5acca7.chunk.js",
+    "static/js/2.2b5acca7.chunk.js.map": "/kelseyspage/static/js/2.2b5acca7.chunk.js.map",
+    "static/js/3.8d042627.chunk.js": "/kelseyspage/static/js/3.8d042627.chunk.js",
+    "static/js/3.8d042627.chunk.js.map": "/kelseyspage/static/js/3.8d042627.chunk.js.map",
+    "static/js/4.5c21bc97.chunk.js": "/kelseyspage/static/js/4.5c21bc97.chunk.js",
+    "static/js/4.5c21bc97.chunk.js.map": "/kelseyspage/static/js/4.5c21bc97.chunk.js.map",
+    "static/js/5.e2eacc94.chunk.js": "/kelseyspage/static/js/5.e2eacc94.chunk.js",
+    "static/js/5.e2eacc94.chunk.js.map": "/kelseyspage/static/js/5.e2eacc94.chunk.js.map",
+    "index.html": "/kelseyspage/index.html",
+    "static/css/2.8d5fbc20.chunk.css.map": "/kelseyspage/static/css/2.8d5fbc20.chunk.css.map",
+    "static/css/main.f3905d4c.chunk.css.map": "/kelseyspage/static/css/main.f3905d4c.chunk.css.map",
+    "static/js/2.2b5acca7.chunk.js.LICENSE.txt": "/kelseyspage/static/js/2.2b5acca7.chunk.js.LICENSE.txt",
+    "static/media/best-app-development-tool.md": "/kelseyspage/static/media/best-app-development-tool.ad3bbdcb.md",
+    "static/media/common-misconceptions-about-payment.md": "/kelseyspage/static/media/common-misconceptions-about-payment.e5b2c5dc.md",
+    "static/media/App.scss": "/kelseyspage/static/media/map.0d7639e8.svg",
+    "static/media/slick-theme.css": "/kelseyspage/static/media/slick.c94f7671.ttf",
+    "static/media/things-to-know-about-startup-business.md": "/kelseyspage/static/media/things-to-know-about-startup-business.3df71b0b.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f7b1bcc.js",
+    "static/css/2.8d5fbc20.chunk.css",
+    "static/js/2.2b5acca7.chunk.js",
+    "static/css/main.f3905d4c.chunk.css",
+    "static/js/main.a669c101.chunk.js"
+  ]
+}
