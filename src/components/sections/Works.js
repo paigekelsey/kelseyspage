@@ -1,6 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import {Link} from 'react-router-dom'
+
 // import Portfolio from "../elements/Portfolio";
 
 // const filters = [
