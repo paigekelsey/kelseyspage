@@ -38,6 +38,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         </div>
       </header>
       <header className={handleClasses()}>
+        <Logo logoSource={logoSource} />
         <nav>
           <ul className="vertical-menu scrollspy">
             <li>

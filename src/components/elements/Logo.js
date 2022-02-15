@@ -12,9 +12,9 @@ function Logo({ logoSource, bootstrapNav }) {
 
   return (
     <div className="site-logo">
-      <Link to="/">
+    
         <img src={logoSource} alt="Kelsey" />
-      </Link>
+  
     </div>
   );
 }
