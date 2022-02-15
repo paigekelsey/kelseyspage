@@ -63,17 +63,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-user-following"></i>About
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-services"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-briefcase"></i>Skills
-              </Link>
-            </li>
+       
             <li>
               <Link
                 activeClass="active"
@@ -83,6 +73,17 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 duration={500}
               >
                 <i className="icon-layers"></i>Works
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-services"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-briefcase"></i>Skills
               </Link>
             </li>
             <li>
@@ -101,7 +102,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Kelsey Smith.
+            &copy; {new Date().getFullYear()} Kelsey Smith
           </span>
         </div>
       </header>

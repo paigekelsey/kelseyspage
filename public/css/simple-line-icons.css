@@ -798,13 +798,7 @@ width:15rem;
 height:auto
 }
 
-.intro h2{
-  color:bisque
-}
 
-section.home .intro{
-  margin-top:-10rem;
-}
 
 div.row p{
   font-size: 20px;
@@ -1038,3 +1032,11 @@ margin: 0 8rem;
 
  }
 
+.source-live{
+  margin: 0 4rem;
+}
+
+.container-forabout img{
+width:4rem;
+height:4rem
+}

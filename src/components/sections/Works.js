@@ -58,6 +58,24 @@ const allData = [
       "Calendly",
     ],
     page:'/peach'
+  },
+  {
+    id: 3,
+    title: "Peach Studio",
+    category: "ecommerce",
+    about: "Ecommerce site that includes user and guest functionality.",
+    click: 'See Project Details',
+    image: "images/stu.png",
+    live: "https://peach-studio.herokuapp.com/",
+    code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
+    tools: [
+      "React/Redux",
+      "Nodejs/Express",
+      "MongoDB",
+      "Wordpress Api",
+      "Calendly",
+    ],
+    page:'/peach'
   }
 ];
 
@@ -76,27 +94,24 @@ const Works = () => {
                 <img src={item.image} alt={item.image} layout="responsive" />
               </div>
               <div>
-                <p className="name">{item.title}</p>
+               
               </div>
        
               <div className="project-details">
                
-                <h2 style={{color: 'white'}} >{item.title}</h2>
+                <h3 style={{color: "rgb(236, 132, 132)"}} >Click to See Project Details</h3>
                 <p style={{color: 'white', fontSize:'20px'}}>{item.about}</p>
-               
-                 <h1 style ={{color: "rgb(236, 132, 132)", textAlign:'center'}}> {item.click}</h1>
-                 <i className="icon-arrow-right-circle" style ={{ textAlign:'center', fontSize:'40px', color: 'rgb(236, 132, 132)'}}></i>
-                <div style={{color: 'white', fontSize: "20px"}}className="tools">
-                  {item.tools.map((tool, i) => (
-                    <div key={i}>  {tool}</div>
-                  ))}
-               
-                </div>
+              
+             
               
               </div>
           
            
               </Link>
+              <span className= 'source-live'>
+              <a href={allData[0].live} target='_blank'rel='noreferrer'>Live Site</a>
+              <a href={allData[0].code} target='_blank'rel='noreferrer'>Source Code</a>
+              </span>
             </div>
           ))}
         

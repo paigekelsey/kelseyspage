@@ -113,11 +113,11 @@ function Converge() {
 <div className="other">
         <h1 className= 'converge-title'>Converge: Details</h1>
         <div className="project-view">
-          <Link to="/">
-            <i className="icon-home"></i> Home
+          <Link to="/converge">
+            <i className="icon-arrow-left-circle"></i> Converge
           </Link>
-          <Link to="/peach">
-            Next<i className="icon-arrow-right-circle"></i>
+          <Link to="/">
+            <i className="icon-home"></i>Home
           </Link>
         </div>
         <div className="single-view-background">

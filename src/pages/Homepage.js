@@ -40,14 +40,15 @@ function Homepage() {
         <Element name="section-about">
           <About />
         </Element>
-           <Element name="section-services">
-             <Services/>
-          <Brandlogos />
-        </Element>
+  
         <Element name="section-works">
           <Works />
+      
         </Element>
-    
+        <Element name="section-services">
+             <Services/>
+             <Brandlogos />
+        </Element>
         <Element name="section-contact">
           <Contact />
         </Element>

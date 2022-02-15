@@ -24,10 +24,11 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/logo2.png" alt="Kelsey" className="mb-4" />
+          <img src="images/logo1.png" alt="kelsey" className="mb-4" />
 
-          <h2 className="mb-2 mt-0">Hi, I'm <span><h1>Kelsey Smith.</h1></span> </h2>
+          <h1 className="mb-2 mt-0">Kelsey Smith</h1>
           <p>
+            I'm a{" "}
             <Typed
               strings={[
                 "software engineer",
@@ -46,23 +47,24 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'>
+            <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'>
                 <i className="fab fa-github fa-2x"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/kelseyspaige/" target='_blank' rel='noreferrer'>
+            <a href="https://www.linkedin.com/in/kelseyspaige/" target='_blank' rel='noreferrer'>
                 <i className="fab fa-linkedin fa-2x"></i>
               </a>
             </li>
+           
           </ul>
 
-
+          <div className="mt-4">
+       
+          </div>
         </div>
 
         <div className="scroll-down">
-          <br/>
-
           <Link
             to="section-about"
             spy={true}
@@ -77,7 +79,7 @@ function Herosection(props) {
           </Link>
         </div>
 
-        <div className="parallax" data-relative-input="">
+        <div className="parallax" data-relative-input="true">
           <svg
             width="27"
             height="29"

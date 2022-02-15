@@ -66,7 +66,7 @@ section.home {
       display: inline-block;
 
       label {
-        margin-bottom: 0;
+      
 
         &::after {
           content: attr(value);
@@ -507,10 +507,8 @@ section.testimonials{
   padding: 0 20px 20px;
 
   .thumb {
-    border-radius: 50%;
-    overflow: hidden;
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
   }
 
   .subtitle {
