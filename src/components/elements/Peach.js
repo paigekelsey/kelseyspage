@@ -45,7 +45,7 @@ const allData = [
       "images/db.png"
 
     ],
-    text: 'I was familiar and comfortable working with the PERN stack, but I truly learned the ins and out of what is required in an e-commerce to efficiently centralize your state and logic through Redux.'
+    text: 'I was familiar and comfortable working with the PERN stack, but I truly learned the ins and outs of what is required in an e-commerce app to efficiently centralize your state and logic through Redux.'
   },
   {
     id: 3,
