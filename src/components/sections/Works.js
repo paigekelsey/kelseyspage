@@ -49,7 +49,7 @@ const allData = [
     click: 'See Project Details',
     image: "images/peachy.png",
     live: "https://peach-studio.herokuapp.com/",
-    code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
+    code: "https://github.com/PeachPanthers/GraceShopper",
     tools: [
       "React/Redux",
       "Nodejs/Express",
