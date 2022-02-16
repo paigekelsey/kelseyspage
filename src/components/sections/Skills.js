@@ -23,8 +23,8 @@ function Skillz() {
 						<p>UI, UX, Web, Mobile, Apps, Logos</p>
 						<h5>Design Tools:</h5>
 						<ul className="list-unstyled">
-							<li>Adobe Photoshop CC</li>
-							<li>Adobe Illustrator CC</li>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Illustrator</li>
 							<li>Figma</li>
 							<li>Miro</li>
 						</ul>
