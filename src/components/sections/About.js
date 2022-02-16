@@ -10,7 +10,7 @@ const sliderData = [
     userName: "From Nurse to Software Engineer ",
     subtitle: "Debugging expert. The bugs are just different.",
     review:
-      "I am a software engineer and former nurse, driven by intellectual curiosity. I'm drawn to understanding how things work and thrive on pursuing the solutions when they don't!My goal is to utilize my creativity, technical skills, and leadership experience to collaboratively develop technology with tangible impact. ",
+      "I am a software engineer and former nurse, driven by intellectual curiosity. I'm drawn to understanding how things work and thrive on pursuing the solutions when they don't! My goal is to utilize my creativity, technical skills, and leadership experience to collaboratively develop technology with tangible impact. ",
   },
   {
     id: 2,
