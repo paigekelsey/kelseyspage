@@ -41,7 +41,7 @@ section.home {
   background: $colordark;
   padding: 0;
   height: 100vh;
-  min-height: 100vh;
+  min-height: auto;
 
   .intro {
     margin: auto;
