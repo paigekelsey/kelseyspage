@@ -1066,17 +1066,17 @@ div.description.col-md-4.my-auto{
 div#rightDescription.description.col-md-4.my-auto{
   margin-bottom: auto!important;
 }
+#mypdf{
 
- #mypdf{
   text-align: center;
-
-
-} 
-#mypdf img{
-  width:4rem;
-  height:4rem;
 }
-
+#mypdf img{
+  width:3.5rem;
+  height:3.5rem;
+}
+/* #git.list-inline-item{
+  margin-bottom:1rem;
+} */
 
 /* img.mb-4{
   width:75%;
@@ -1097,4 +1097,12 @@ border-radius: 30%;
 #port-item{
   
 background-color: rgb(245, 187, 179);
+}
+
+.downn{
+  text-align: center;
+}
+.downn img{
+  width:90px;
+  height:50px;
 }

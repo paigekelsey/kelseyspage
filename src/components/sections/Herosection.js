@@ -54,7 +54,7 @@ function Herosection(props) {
               
               </a>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" id="git">
             <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'className='text'>
                 <img src='images/git.png' alt='github'/>
               </a>
@@ -72,22 +72,8 @@ function Herosection(props) {
        
           </div>
         </div>
-
-        <div className="scroll-down">
-          <Link
-            to="section-about"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="mouse-wrapper"
-          >
-          
-            <span className="mouse">
-              <span className="wheel"></span>
-            </span>
-            <span>Scroll Down</span>
-          </Link>
-        </div>
+<div></div>
+       
 
         <div className="parallax" data-relative-input="true">
           <svg
