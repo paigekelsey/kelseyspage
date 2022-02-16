@@ -1067,18 +1067,14 @@ div#rightDescription.description.col-md-4.my-auto{
   margin-bottom: auto!important;
 }
 
-/* #mypdf{
+ #mypdf{
   text-align: center;
-  color:firebrick;
-  position:absolute;
-  margin-top:33px;
-  margin-left:355px;
 
-} */
+
+} 
 #mypdf img{
   width:4rem;
   height:4rem;
-  margin-bottom:4rem;
 }
 
 
@@ -1087,14 +1083,15 @@ div#rightDescription.description.col-md-4.my-auto{
   height:400px;
 } */
 
-/* .endpic{
+.endpic{
 text-align: center;
-} */
+}
 
 .endpic img{
 width:200px;
-position: absolute;
-margin-left:30%
+border-radius: 30%;
+
+
 }
 
 #port-item{

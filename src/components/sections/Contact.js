@@ -51,14 +51,13 @@ function Contact() {
   // };
 
   return (
-    <div className='contacts'>
     <section id="contact">
       <div className="container">
         <Pagetitle title="Get in Touch" />
-
+        <div className='endpic'>
+    <img src='images/maddow.png' alt='maddow'/>
+    </div>
         <div className="row">
-          <div className="col-md-4">
-            <div className="contact-info">
               <ScrollAnimation
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"
@@ -70,18 +69,13 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-          
               </ScrollAnimation>
-            </div>
-          </div>
-
-          <div className="col-md-8">
+      
           <div className='container'>
           <ul id="mypdf" className="social-icons light list-inline mb-0 mt-4">
           <li className="list-inline-item"> 
             <a href="mailto:pages.kelsey@gmail.com" target='_blank' rel='noreferrer' className='text'>
                 <img src ="/images/mail.png" alt='mycv'/>
-              
               </a>
             </li>
             <li className="list-inline-item">
@@ -95,19 +89,11 @@ function Contact() {
               </a>
             </li>
             </ul>
-       
-         
                   </div>
-         
           </div>
         </div>
-      </div>
-      
+    
     </section>
-    <div className='endpic'>
-    <img src='images/maddow.png' alt='maddow'/>
-    </div>
-      </div>
   );
 }
 
