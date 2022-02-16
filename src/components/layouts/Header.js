@@ -25,6 +25,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
     }
     return classes;
   };
+ 
   return (
     <>
       <header className={handleMobileClasses()}>
@@ -34,7 +35,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               <span></span>
             </button>
           </div>
-          <Logo logoSource={logoSource} />
+     
         </div>
       </header>
       <header className={handleClasses()}>
