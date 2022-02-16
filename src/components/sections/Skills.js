@@ -25,7 +25,7 @@ function Skillz() {
 						<ul className="list-unstyled">
 							<li>Adobe Photoshop CC</li>
 							<li>Adobe Illustrator CC</li>
-							<li>Figmar</li>
+							<li>Figma</li>
 							<li>Miro</li>
 						</ul>
 					</div>
