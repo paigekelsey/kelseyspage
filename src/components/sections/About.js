@@ -58,7 +58,7 @@ function About() {
         </Slider>
         <ul id="myresume" >
           <li className="list-inline-item"> 
-            <a href="images/KSCV.pdf" target='_blank' rel='noreferrer' className='text'>
+            <a href="images/KelseySmithResume.pdf" target='_blank' rel='noreferrer' className='text'>
                 <img src ="/images/myresume.png" alt='mycv'/>
               
               </a>
