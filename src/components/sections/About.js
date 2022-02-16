@@ -18,15 +18,14 @@ const sliderData = [
     userName: "Development and Design Process ",
     subtitle: "",
     review:
-      "Agile methodology. Tools for UI/UX ",
+      "I value simple content structure, clean design patterns, and thoughtful content. I like to resolve design problems, create smart user interface and imagine useful interaction, developing rich web experiences & web applications.",
   },
   {
     id: 3,
     avatar: "images/timeline.png",
     userName: "Timeline",
     subtitle: "",
-    review:
-      "",
+    review: "I grew up in Alabama and after graduating from Auburn University with my Bachelor of Science in Nursing (BSN), I moved to New York City to be apart of a fast-paced, exciting culture. I worked as a registered for 10 years, holding management and leadership positions. Throughout all of this, I was continually fascinated and curious about new technologies and software.  Finally, the urge to switch contexts and dive further into tech grew too strong to ignore. I left the security and stability I had always known to focus solely on honing and growing my programming skills. My passion for engineering and developing is unmatched. I love every aspect of bringing an idea to life and find each step of the process equally exciting."
   },
   {
     id: 3,
@@ -40,7 +39,7 @@ const sliderData = [
 
 function About() {
   const slidetSettings = {
-    dots: true,
+    dots: false,
     arrows: true,
     infinite: true,
     speed: 500,

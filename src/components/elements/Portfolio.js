@@ -38,7 +38,7 @@ function Portfolio({ portfolio }) {
         className="work-image"
         onClick={handleLightbox}
       >
-        <div className="portfolio-item rounded shadow-dark">
+        <div className="portfolio-item rounded shadow-dark" id='port-item'>
           <div className="details-details">
             {/* <span className="term text-capitalize">{category}</span> */}
             <h6 className="title">{title}</h6>

@@ -33,33 +33,29 @@ const allData = [
     category: "challenge",
     image: "images/porty1.png",
     popupLink: ["images/peach-tech.png"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    text: 'This is a fully responsive React, ES6, Sass, CSS app. I wanted to create a portfolio that felt unique, that felt like me. I did not want a boring, template that stripped me of my personality. This is an going project and I am proud of what it has become.'
   },
   {
     id: 2,
     title: "Approach",
     category: "approach",
-    image: "images/peachtech.png",
+    image: "images/custom.png",
     popupLink: [
-      "images/verge-wireframe.jpg",
-      "images/frame1.jpg",
-      "images/frame2.jpg",
-      "images/frame3.jpg",
+      "images/custom.png"
     ],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    text: 'I decided to create my own logo and artwork for my portfolio. I utilized Figma, Canva, and Miro for design and wireframing. I have been working on this side project in my own time for several months and have loved seeing it evolve.'
   },
   {
     id: 3,
     title: "Results",
     category: "tech",
-    image: "images/peachcheck.png",
-    popupLink:  ["https://www.youtube.com/watch?v=5X3TyV4lEkk&feature=youtu.be"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
-  },
+    image: "images/porty.png",
+    popupLink:  ["images/porty.png"],
+    text:'You are already aware of the results, seeing as you are already here on this page. I have many ideas on how to expand and to optimize. My stretch goals for this project are to hook it up into a database to store site traffic and interactivty, add a blog section, and to continually improve the design making the responsiveness and user experience more seamless.'  },
 
 ];
-const live = "https://www.converge-app.com/";
-const code = "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice";
+const live = "https://kelseys.netlify.app/";
+const code = "https://github.com/paigekelsey/kelseyspage";
 function Port() {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(6);

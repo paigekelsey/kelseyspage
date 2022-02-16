@@ -33,7 +33,7 @@ const allData = [
     category: "challenge",
     image: "images/verge-tech.png",
     popupLink: ["images/verge-tech.png"],
-    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
+    text: "This was my final project at Fullstack Academy. Me and 3 other students were given a prompt to create a virtual office where users can move an avatar within a 2d space. When users enter a space with a coworker, a video conference should open up between the two."
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const allData = [
       "images/frame2.jpg",
       "images/frame3.jpg",
     ],
-    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
+    text:'We discussed different approaches to accomplish our final goal. MVP Features:  Users can move around a virtual office, Virtual office rendered using Phaser, Video Chats open up between neighboring workers, Login/Signup, forms with React, Users are able to customize their avatar and have this saved when they log in.'
   },
   {
     id: 3,
@@ -54,8 +54,7 @@ const allData = [
     category: "tech",
     image: "images/youtube.png",
     popupLink: ["https://www.youtube.com/watch?v=5X3TyV4lEkk&feature=youtu.be"],
-    text: "I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.",
-  },
+    text:'We were able to successfully meet our goals and even accomplished a stretch goal of having custom avatars. We enabled this with local storage and using React Forms. Check out our video showing our product!',  },
 ];
 
 const live = "https://www.converge-app.com/";

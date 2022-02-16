@@ -32,8 +32,8 @@ const allData = [
     title: "Description",
     category: "challenge",
     image: "images/userauth.png",
-    popupLink: ["images/peach-tech.png"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    popupLink: ["images/userauth.png"],
+    text: 'I worked on this project with 3 other software engineers in training. Our challenge was to create a full-stack PERN e-commerce application utlizing JWT authentication.'
   },
   {
     id: 2,
@@ -41,21 +41,20 @@ const allData = [
     category: "approach",
     image: "images/peachtech.png",
     popupLink: [
-      "images/verge-wireframe.jpg",
-      "images/frame1.jpg",
-      "images/frame2.jpg",
-      "images/frame3.jpg",
+      "images/peachtech.png",
+      "images/db.png"
+
     ],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
+    text: 'I was familiar and comfortable working with the PERN stack, but I truly learned the ins and out of what is required in an e-commerce to efficiently centralize your state and logic through Redux.'
   },
   {
     id: 3,
     title: "Results",
     category: "tech",
     image: "images/peachcheck.png",
-    popupLink:  ["https://www.youtube.com/watch?v=5X3TyV4lEkk&feature=youtu.be"],
-    text: 'I worked on this project with 3 other engineers. We weregiven a prompt to create a 2d Virtual Office with video-chat features utilizing PhaserJS game interface to move around custom avatars.'
-  },
+    popupLink:  ["images/peachcheck.png"],
+    text: "The end product features an Express-based, RESTful API system (with protected API routes), a relational database schema built on PostgreSQL, hashed and salted user data,  the ability to persist guest carts in local storage, page admin functionality and frontend functionality built with React and Redux."
+     },
 
 ];
 
@@ -131,23 +130,7 @@ function Peach() {
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
-
-        {/* <div className="load-more text-center mt-4">
-          <button
-            className="btn btn-default"
-            onClick={handleLoadmore}
-            disabled={noMorePost ? "disabled" : null}
-          >
-            {noMorePost ? (
-              "No more items"
-            ) : (
-              <span>
-                <i className="fas fa-spinner"></i> Load more
-              </span>
-            )}
-          </button>
-        </div> */}
+     
       </div>
       </div>
       </div>
@@ -157,89 +140,7 @@ function Peach() {
 
 export default Peach;
    
-// import React from "react";
-
-// import Global from "../layouts/Global"
-
-// import SingleProject from "./SingleProject"
 
 
 
 
-
-
-// // id: 1,
-// // title: "Converge",
-// // image: "images/work.gif",
-// // text: '2d virtual app',
-// // approach: 'Approach',
-// // approachImage: "images/vergey.png",
-// // approachText: '4 engineers with 14 days etc.',
-// // tech: 'Tech',
-// // techImage: 'images/vergetech.png',
-// // techText: 'new technologies utilized phaser socket io',
-// // design:'Design',
-// // designImage: 'images/verge-wireframe.jpg',
-// // designText: 'wireframing, tilemaps',
-// //   },
-// //   {
-// //       id: 2,
-// //       title: "Peach-Studio",
-// //       image: "images/work.gif",
-// //       text: '2d virtual app',
-// //       approach: 'Approach',
-// //       approachImage: "images/vergey.png",
-// //       approachText: '4 engineers with 14 days etc.',
-// //       tech: 'Tech',
-// //       techImage: 'images/vergetech.png',
-// //       techText: 'new technologies utilized phaser socket io',
-// //       design:'Design',
-// //       designImage: 'images/verge-wireframe.jpg',
-// //       designText: 'wireframing, tilemaps',
-// //           },
-
-// const data = [
-//   {
-//     id: 1,
-//     title: "The Challenge",
-//     text: 'Build a 2d virtual office for people who work remotely. Utilize new technologies, PhaserJS, socket.io, and webrtc to intergrate peer to peer video conferencing.',
-//     bgColor: "#D5CAFA",
-//     image:"images/work.gif"
-//   },
-//   {
-//     id: 2,
-//     title: "The Tech",
-//     text: "",
-//     bgColor: "#EDA9A9",
-//     image:"images/vergetech.png"
-//   },
-//   // {
-//   //   id: 3,
-//   //   title: "The Approach",
-//   //   text: "Design, discussion, wireframing, implementation.",
-//   //   bgColor: "#F2EE8D",
-//   //   image: "images/verge-wireframe.jpg"
-//   // },
-//   // {
-//   //   id: 4,
-//   //   title: "The Execution",
-//   //   text: 'Used tiled to create tilemaps, created ice candidates',
-//   //   bgColor: "#9FEACD",
-//   //   image: "images/vergey.png"
-//   // }
-// ];
-
-// function Converge() {
-//   return (
-//     <>
-//       <Global />
-//       <h2 style={{textAlign: 'center'}}>Converge</h2>
-//       <SingleProject boxData={data} />
-//      <div className='container'>
-//        <img src= 'images/verge-wireframe.jpg' alt='kelsey'></img>
-//      </div>
-//       </>
-//       )
-// }
-
-// export default Converge;

@@ -62,12 +62,12 @@ const allData = [
   {
     id: 3,
     title: "Kelsey's Portfolio",
-    category: "ecommerce",
+    category: "personal",
     about: "The site you are on right now!",
     click: 'See Project Details',
     image: "images/porty.png",
-    live: "https://peach-studio.herokuapp.com/",
-    code: "https://github.com/2109-TigerSugar/Converge-2dVirtualOffice",
+    live: "https://kelseys.netlify.app/",
+    code: "https://github.com/paigekelsey/kelseyspage",
     tools: [
       "React/Redux",
       "Nodejs/Express",
@@ -75,7 +75,7 @@ const allData = [
       "Wordpress Api",
       "Calendly",
     ],
-    page:'/peach'
+    page:'/port'
   }
 ];
 

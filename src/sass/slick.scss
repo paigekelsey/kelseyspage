@@ -13,13 +13,13 @@
     text-align: center;
     background: $colordefault;
     border-radius: 0;
-    top: calc(50% - 40px);
+    top: calc(30% - 40px);
     z-index: 1;
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
     -ms-transform: translateX(0px);
     transform: translateX(0px);
-    margin:2rem
+    opacity:0.4
 }
 
 .slick-next:hover,.slick-next:focus,.slick-prev:hover,.slick-prev:focus {
@@ -98,6 +98,7 @@
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+    font-size:30px
 }
 
 .slick-dotted.slick-slider {
