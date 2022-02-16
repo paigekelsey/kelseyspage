@@ -32,7 +32,7 @@ const allData = [
     title: "Description",
     category: "challenge",
     image: "images/porty1.png",
-    popupLink: ["images/peach-tech.png"],
+    popupLink: ["images/porty1.png"],
     text: 'This is a fully responsive React, ES6, Sass, CSS app. I wanted to create a portfolio that felt unique, that felt like me. I did not want a boring template that stripped me of my personality. This is an going project and I am proud of what it has become.'
   },
   {
