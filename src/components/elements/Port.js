@@ -51,7 +51,7 @@ const allData = [
     category: "tech",
     image: "images/porty.png",
     popupLink:  ["images/porty.png"],
-    text:'You are already aware of the results, seeing as you are here on this page. I have many ideas on how to expand and to optimize. My stretch goals for this project are to hook it up into a database to store site traffic and interactivty, add a blog section, and to continually improve the design making the responsiveness and user experience more seamless.'  },
+    text:'You are already aware of the results, seeing as you are here on this page. I have many ideas on how to expand and to optimize. My stretch goals for this project are to hook it up into a database to store site traffic and interactivity, add a blog section, and to continually improve the design making the responsiveness and user experience more seamless.'  },
 
 ];
 const live = "https://kelseys.netlify.app/";
