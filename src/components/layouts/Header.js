@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../elements/Logo";
 
+
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
     let classes = "desktop-header-1 d-flex align-items-start flex-column";
@@ -25,6 +26,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
     }
     return classes;
   };
+  
   return (
     <>
       <header className={handleMobileClasses()}>
@@ -34,11 +36,11 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               <span></span>
             </button>
           </div>
-          <Logo logoSource={logoSource} />
+          <Logo logoSource={"/images/side.png"} />
         </div>
       </header>
       <header className={handleClasses()}>
-        <Logo logoSource={logoSource} />
+        <Logo logoSource={"/images/side.png"} />
         <nav>
           <ul className="vertical-menu scrollspy">
             <li>

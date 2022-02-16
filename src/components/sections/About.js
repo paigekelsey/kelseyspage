@@ -39,7 +39,7 @@ const sliderData = [
 
 function About() {
   const slidetSettings = {
-    dots: false,
+    dots: true,
     arrows: true,
     infinite: true,
     speed: 500,
