@@ -104,8 +104,8 @@ const Works = () => {
                 </a>
                 <p style={{color: 'white', fontSize:'20px'}}>{item.about}</p>
                 <div className="works-hover">
-                            <a href={allData[0].code} target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
-                            <a href={allData[0].live}><i class="fas fa-external-link-alt fa-3x"></i></a>
+                            <a href={item.code} target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
+                            <a href={item.live}><i class="fas fa-external-link-alt fa-3x"></i></a>
                             </div>
               </div>
           
