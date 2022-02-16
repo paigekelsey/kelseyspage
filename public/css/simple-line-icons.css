@@ -1106,3 +1106,17 @@ background-color: rgb(245, 187, 179);
   width:90px;
   height:50px;
 }
+
+#myresume{
+  
+  text-align: center;
+}
+
+#myresume img{
+  width:30%;
+  height:30%;
+}
+
+#works{
+  padding-top: 0
+}

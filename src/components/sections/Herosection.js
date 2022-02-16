@@ -47,24 +47,19 @@ function Herosection(props) {
             </Typed>
           </p>
 
-          <ul id="mypdf" className="social-icons light list-inline mb-0 mt-4">
-          <li className="list-inline-item"> 
-            <a href="images/KSCV.pdf" target='_blank' rel='noreferrer' className='text'>
-                <img src ="/images/6.png" alt='mycv'/>
-              
-              </a>
-            </li>
-            <li className="list-inline-item" id="git">
-            <a href="https://github.com/paigekelsey" target='_blank' rel='noreferrer'className='text'>
-                <img src='images/git.png' alt='github'/>
+          <ul className="social-icons light list-inline mb-0 mt-4">
+            <li className="list-inline-item">
+              <a href="https://github.com/paigekelsey" target="_blank" rel='noreferrer'>
+                <i className="fab fa-github fa-2x"></i>
               </a>
             </li>
             <li className="list-inline-item">
-            <a href="https://www.linkedin.com/in/kelseyspaige/" target='_blank' rel='noreferrer'className='text'>
-                 <img src='images/link.png' alt='github'/>
+              <a href="https://www.linkedin.com/in/kelseyspaige/" target="_blank" rel='noreferrer'>
+                <i className="fab fa-linkedin fa-2x"></i>
               </a>
             </li>
-            </ul>
+          
+          </ul>
        
          
 
