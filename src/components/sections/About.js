@@ -25,7 +25,7 @@ const sliderData = [
     avatar: "images/timeline.png",
     userName: "Timeline",
     subtitle: "",
-    review: "After getting my Bachelor of Science in Nursing at Auburn University, I worked for 10 years as a registered nurse, holding management and leadership positions. Throughout all of this, I was continually fascinated and curious about new technologies and software.  Finally, the urge to switch contexts and dive further into tech grew too strong to ignore. I left the security and stability I had always known to focus solely on honing and growing my programming skills. My passion for engineering and developing is unmatched. I love every aspect of bringing an idea to life and find each step of the process equally exciting."
+    review: "After 10 years as a registered nurse, the urge to switch contexts and dive further into tech grew too strong to ignore. I left the security and stability I had always known to focus solely on honing and growing my programming skills. My passion for engineering and developing is unmatched. I love every aspect of bringing an idea to life and find each step of the process equally exciting."
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const sliderData = [
     userName: "My dog",
     subtitle: "Had to mention the the obvious theme of the dog you see on my site",
     review:
-      "The real star of this portfolio site, Maddow. She can't code, but can she eat.",
+      "The real star of this portfolio site, Maddow. She has a love and passion for food. Her languagues include Treats, More Treats and Peanut Butter. She can't code, but can she eat.",
   },
 ];
 
