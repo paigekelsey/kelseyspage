@@ -31,7 +31,7 @@ const sliderData = [
     id: 3,
     avatar: "images/maddie1.png",
     userName: "My dog",
-    subtitle: "Had to mention the the obvious theme of the dog you see on my site",
+    subtitle: "Had to mention the obvious theme of the dog you see on my site",
     review:
       "The real star of this portfolio site, Maddow. She has a love and passion for food. Her languagues include Treats, More Treats and Peanut Butter. She can't code, but can she eat.",
   },
